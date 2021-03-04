@@ -3,11 +3,11 @@
 class Node:
 
     def __init__(self, data):
-        self.node = None
+        self.next = None
         self.data = data
 
     def __repr__( self ):
-        return self.data
+        return str(self.data)
 
 
 if __name__ == '__main__':
